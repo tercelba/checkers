@@ -1,18 +1,19 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
 }
 .board {
 	width: 700px;
 	height: 700px;
 	border: 30px solid #3E0600;
 	position: relative;
-	margin: 10px auto;
+	margin: 30px auto;
 	position: relative;
 	background-color: #FFF7B2;
+	box-shadow: 0 0 200px rgba(0,0,0,1);
 }
 .board div div {
 	width: 80px;
@@ -88,10 +89,67 @@
 .board div div div.checker:hover {
 	box-shadow: 0 0 30px rgba(255,255,255,1);
 }
-
-
-
-
+.text, .number {
+	font-size: 17px;
+	color: white;
+	font-weight: 700;
+}
+.text span {
+	position: absolute;
+	top: 645px;
+}
+div.text span:nth-child(1) {
+	left: 35px;
+}
+div.text span:nth-child(2) {
+	left: 118px;
+}
+div.text span:nth-child(3) {
+	left: 198px;
+}
+div.text span:nth-child(4) {
+	left: 278px;
+}
+div.text span:nth-child(5) {
+	left: 358px;
+}
+div.text span:nth-child(6) {
+	left: 438px;
+}
+div.text span:nth-child(7) {
+	left: 518px;
+}
+div.text span:nth-child(8) {
+	left: 598px;
+}
+.number span {
+	position: absolute;
+	left: -20px;
+}
+div.number span:nth-child(1) {
+	top: 30px;
+}
+div.number span:nth-child(2) {
+	top: 110px;
+}
+div.number span:nth-child(3) {
+	top: 190px;
+}
+div.number span:nth-child(4) {
+	top: 270px;
+}
+div.number span:nth-child(5) {
+	top: 350px;
+}
+div.number span:nth-child(6) {
+	top: 430px;
+}
+div.number span:nth-child(7) {
+	top: 510px;
+}
+div.number span:nth-child(8) {
+	top: 590px;
+}
 
 
 
